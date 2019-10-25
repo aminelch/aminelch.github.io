@@ -1,2 +1,2 @@
-# aminelch.github.io-
+# aminelch.github.io
 my personal portfolio
