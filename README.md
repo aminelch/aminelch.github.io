@@ -2,5 +2,19 @@
 <<<<<<< HEAD
 my personal portfolio  - https://aminelch.github.io 
 =======
-my personal portfolio
->>>>>>> 97b689a77738b7abc60846106df82c1bed152085
+
+
+
+
+
+
+### Fork and Enjoy
+
+Please feel free to contribute to the application by following the steps below:
+
+ - Fork it
+ - Create your feature branch (`git checkout -b my-new-feature`)
+ - Commit your changes (`git commit -am 'Add some feature'`)
+ - Push to the branch (`git push origin my-new-feature`)
+ - Create new Pull Request
+
