@@ -1,5 +1,3 @@
-# aminelch.github.io
-<<<<<<< HEAD
 my personal portfolio  - https://aminelch.github.io 
 =======
 
