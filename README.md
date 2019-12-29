@@ -1,20 +1,22 @@
 
-my personal portfolio  - https://aminelch.github.io 
+
+My personal Portfolio  
 =======
 ### Preview 
 
-[live preview]: https://aminelch.github.io
+https://aminelch.github.io
 
  
-
 ### Status
 
-![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)
+![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![hello](https://badges.frapsoft.com/os/v2/open-source.png?v=103)
 
 
 
 ### Download and Installation
 
+
+![enter image description here](https://github.com/aminelch/aminelch.github.io/tree/master/static/clone-screen.png)
 
 ### Usage  
 
@@ -22,6 +24,7 @@ After downloading, simply edit the HTML and CSS files included with the template
 
 ### Fork and Enjoy
 
+![enter image description here](https://github.com/aminelch/aminelch.github.io/tree/master/static/fork-screen.png)
 Please feel free to contribute to the application by following the steps below:
 
  - Fork it
@@ -39,3 +42,5 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 ### License 
 
 This template is an open source ,released under the MIT license which means you can use them for any purpose, even for commercial projects.
+
+
