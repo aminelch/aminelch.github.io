@@ -4,12 +4,12 @@ My personal Portfolio
 =======
 ### Preview 
 
-https://aminelch.github.io
+⚡⚡ https://aminelch.github.io
 
  
 ### Status
 
-![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![hello](https://badges.frapsoft.com/os/v2/open-source.png?v=103)
+![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![hello](https://badges.frapsoft.com/os/v2/open-source.png?v=103)
 
 
 
