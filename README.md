@@ -16,7 +16,7 @@ My personal Portfolio
 ### Download and Installation
 
 
-![enter image description here](https://github.com/aminelch/aminelch.github.io/tree/master/static/clone-screen.png)
+![enter image description here](https://github.com/aminelch/aminelch.github.io/tree/master/static/screen.png)
 
 ### Usage  
 
