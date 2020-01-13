@@ -1,5 +1,5 @@
 
-  
+
 
 My personal Portfolio  
 =======
@@ -7,7 +7,7 @@ My personal Portfolio
 
 ⚡⚡ https://aminelch.github.io
 
- 
+
 ### Status
 
 ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)![hello](https://badges.frapsoft.com/os/v2/open-source.png?v=103)
@@ -37,8 +37,15 @@ Please feel free to contribute to the application by following the steps below:
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/aminelch/aminelch.github.io/issues/new) here on GitHub 
 
+### Dependencies 
+- jQuery 1.11.0 
+- Bootstrap 3.3.4
+- OWL Carousel
+- Font Awesome 
+- Google Analytics
+- Google Fonts API 
 
 
 ### License 
 
-This template is an open source ,released under the MIT license which means you can use them for any purpose, even for commercial projects.
+This template is an open source ,released under the Creative Commons license which means you can use them for any purpose, even for commercial projects.
