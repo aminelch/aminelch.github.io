@@ -2365,10 +2365,11 @@ span.border.two:after {
     margin: 5px;
 }
 
-.hero__social svg {
+.hero__social svg i {
     width: 25px;
     height: 25px;
     fill: #8f8f8f;
+    color: #8f8f8f;
     transition: 0.5s ease all;
 }
 
@@ -2616,3 +2617,8 @@ svg:not(:root) {
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
 }
+
+
+/* .hero__social i.fa {
+    color: red;
+} */
