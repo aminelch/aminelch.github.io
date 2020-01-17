@@ -2365,7 +2365,7 @@ span.border.two:after {
     margin: 5px;
 }
 
-.hero__social svg i {
+.hero__social svg {
     width: 25px;
     height: 25px;
     fill: #8f8f8f;
@@ -2393,7 +2393,7 @@ svg:not(:root) {
     height: 3px;
 }
 
-
+git
 /* styles for skills bar */
 
 .progress {
