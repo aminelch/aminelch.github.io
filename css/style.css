@@ -1671,7 +1671,7 @@ span.border.two:after {
         margin-top: 1em;
     }
     ul.address li ul.address-text li:nth-child(1) {
-        width: 26%;
+        width: auto;
     }
     .about-right {
         float: none;
