@@ -94,6 +94,13 @@ $(function() {
     gtag('js', new Date());
     gtag('config', 'UA-108288516-1');
 
+    /** DEMO POPUP */
+    $(function() {
+        function show_popup() {
+            $('#thizzdemo').modal('show');
+        };
+        window.setTimeout(show_popup, 10000); // 10 seconds :D 
+    });
 
 
 });
