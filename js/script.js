@@ -99,7 +99,7 @@ $(function() {
         function show_popup() {
             $('#thizzdemo').modal('show');
         };
-        window.setTimeout(show_popup, 10000); // 10 seconds :D 
+        window.setTimeout(show_popup, 25000); // 25 seconds :D 
     });
 
 
