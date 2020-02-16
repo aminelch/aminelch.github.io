@@ -34,7 +34,7 @@ $(function() {
     $("#owl-demo1").owlCarousel({
         items: 1,
         lazyLoad: false,
-        autoPlay: true,
+        autoPlay: 8000,
         navigation: false,
         navigationText: false,
         pagination: true,
@@ -43,7 +43,7 @@ $(function() {
     $("#owl-demo3").owlCarousel({
         items: 1,
         lazyLoad: false,
-        autoPlay: true,
+        autoPlay: 8000,
         navigation: true,
         navigationText: true,
         pagination: true,
