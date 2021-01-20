@@ -10,7 +10,7 @@ const weatherIcons = {
     'Drizzle': "wi wi-day-sleet",
 }
 /** IL FAUT :
-  1 savoir l'addresse IP de visiteur
+  1 savoir l'addressee IP de visiteur
   2 contacter une API pour savoir la localisation de l'utilisateur
   3 renvoyé la méteo
  */
@@ -27,11 +27,11 @@ async function getMeteoInfos(withIp = true) {
      * SINON
      * on prend le contenut de span ville et on travaille avec  cette valeur
      */
-    let weather
 
+    let weather, currentCity, openweatherURL
     if (withIp) {
 
-        const currentCity = await fetch(`http://ipinfo.io/?token=9218caedcca17b`)
+         currentCity = await fetch(`https://ipinfo.io/?token=9218caedcca17b`)
             .then(result => result.json())
             .then(data => {
                 return { city: data.city, loc: data.loc } // on retourne un obj au lieu d'un item
@@ -42,7 +42,7 @@ async function getMeteoInfos(withIp = true) {
         const lon = currentCity.loc.substring(0, commaPosition)
         const lat = currentCity.loc.substring(commaPosition + 1, currentCity.loc.length)
 
-        const openweatherURL = `http://api.openweathermap.org/data/2.5/weather?lat=${lon}&lon=${lat}&appid=${openweatherKey}&lang=fr&units=metric`
+         openweatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lon}&lon=${lat}&appid=${openweatherKey}&lang=fr&units=metric`
 
          weather = await fetch(openweatherURL)
         .then(result => result.json())
@@ -60,12 +60,30 @@ async function getMeteoInfos(withIp = true) {
         })
         .catch(error => console.log(error))
     }
+    else {
 
+        //recuperer la ville depuis la span city
+        currentCity= document.querySelector('#city').textContent
 
+        openweatherURL=`https://api.openweathermap.org/data/2.5/weather?q=${currentCity}&appid=${openweatherKey}&lang=fr&units=metric`
 
+        weather = await fetch(openweatherURL)
+       .then(result => result.json())
+       .then(data => {
+           return {
+               description: data.weather[0].description,
+               main: data.weather[0].main,
+               temp: data.main.temp,
+               city: data.name,
+               meteo: {
+                   data
+               }
 
+           }
+       })
+       .catch(error => console.log(error))
 
-
+    }
 
     displayMeteoInfos(weather)
 }
@@ -77,7 +95,7 @@ let displayMeteoInfos = (meteo) => {
     document.querySelector('#description').textContent = meteo.description
     document.querySelector('i.wi').className = weatherIcons[meteo.main]
     document.querySelector('body').className = (meteo.main).toLowerCase()
-
+    console.log(meteo.main.toLowerCase())
     console.log(meteo.meteo)
 
 
@@ -95,8 +113,9 @@ city.addEventListener('keydown', (e) => {
     // keycode de la touche entrer
     if (e.keyCode == 13) {
         e.preventDefault()
-        console.log(e.target.value)
         city.contentEditable = false
+        getMeteoInfos(false)
+
     }
 
 })
