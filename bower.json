@@ -1,0 +1,27 @@
+{
+  "name": "Amine L'ch  CV",
+  "version": "1.0.0",
+  "homepage": "https://aminelch.github.io",
+  "authors": [
+    "aminelch"
+  ],
+  "description": "PHP developer",
+  "keywords": [
+    "CV",
+    "Web Developer",
+    "PHP Developer",
+    "Back-end"
+  ],
+  "license": "CC BY 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pagepiling.js": "~0.0.7"
+  }
+}
+
