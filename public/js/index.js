@@ -11,7 +11,7 @@ $(document).ready(function() {
     } else {
         var ar = ['Home', 'Projects', 'Professions', 'Education', 'Current Position', 'Contact Me'];
         var fr = ['Accueil', 'Projets', 'Professions', 'Education',
-        'Localisation', 'Contacter moi'];
+        'Poste actuelle', 'Contacter moi'];
 
         var isAr = window.location.href.indexOf('ar.html') >= 0;
        
