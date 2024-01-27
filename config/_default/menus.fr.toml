@@ -16,15 +16,19 @@
   weight = 10
 
 [[main]]
+name = "Projets"
+pageRef = "projects"
+weight = 20
+
+[[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 20
-
+  weight = 30
 
 [[main]]
   name = "Whoami"
   pageRef = "pages/whoami"
-  weight = 30
+  weight = 40
 
 [[main]]
   identifier = "appearance"
