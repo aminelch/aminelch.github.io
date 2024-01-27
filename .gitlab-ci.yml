@@ -31,7 +31,7 @@ pages:
     # Install Node.js dependencies
     - "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
     # Build
-    - hugo --gc --minify --baseURL /
+    - hugo --gc --minify --baseURL https://aminelch.gitlab.io
     # Compress
     - find public -type f -regex '.*\.\(css\|html\|js\|txt\|xml\)$' -exec gzip -f -k {} \;
     - find public -type f -regex '.*\.\(css\|html\|js\|txt\|xml\)$' -exec brotli -f -k {} \;
