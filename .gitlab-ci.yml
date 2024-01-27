@@ -29,8 +29,8 @@ pages:
     - curl -fsSL https://deb.nodesource.com/setup_${NODE_VERSION} | bash -
     - apt-get install -y nodejs
     # Install Node.js dependencies
-    - "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"7
-     sed -i 's#https://aminelch.github.io#https://aminelch.gitlab.io#g' config/_default/config.toml
+    - "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+    - sed -i 's#https://aminelch.github.io#https://aminelch.gitlab.io#g' config/_default/config.toml
     # Build
     - hugo --gc --minify --baseURL https://aminelch.gitlab.io
     # Compress
