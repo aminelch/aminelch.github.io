@@ -34,7 +34,7 @@ En anglais, l’expression in a **nutshell** annonce un effort pour résumer de 
 
 ### GSS
 J’utilise [Hugo](https://gohugo.io/), un outil libre de création de site statique en Markdown, et mon site est
-hébergé sur [Github](https://github.com).
+hébergé sur [Github](https://github.com), avec une copie miroir du projet sur [Gitlab](https://gitlab.com/aminelch/amine.io).
 
 Cela me permet d’avoir un site sécurisé, qui s’affiche très rapidement, et qui reste facile à maintenir une fois
 qu’on l’a correctement configuré.
@@ -42,9 +42,7 @@ qu’on l’a correctement configuré.
 ### Théme
 Le thème de ce blog est une adaptation du thème Congo, créé par [James Panther](https://jamespanther.com/). Vous pouvez vous aussi l’utiliser, dans
  sa version originale, ou dans [la version que je propose](https://gihub.com/aminelch/aminelch.github.io), en le
- récupérant
- sur
- Github.
+ récupérant sur Github.
 
 ### Favicon
 
