@@ -10,7 +10,7 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
   displayName = "fr"
   rtl = false
   dateFormat = "02 Janvier 2006"
-  description = "Mon petit mémo sur tout ce qui touche l'architecture applicative et l'administration système GNU/Linux 🐧"
+  description = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
 
 [author]
   name = "Amine LOUHICHI"
@@ -18,7 +18,7 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
 #  headline = ""
 #  headline = "J’écris à propos GNU/Linux, du développement web et de la vie en général."
   headline = "Chaque défi surmonté dans la vie peut être considéré comme un rond-point franchi, marquant ainsi la progression vers de nouveaux horizons."
-  bio = "Mon petit mémo sur tout ce qui touche PHP, l'architecture applicative et l'administration système GNU/Linux 🐧"
+  bio = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
   links = [
     { email = "mailto:mfauwxs1b@mozmail.com" },
     { gitlab = "https://gitlab.com/aminelch" },

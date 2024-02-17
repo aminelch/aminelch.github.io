@@ -5,10 +5,7 @@
 baseURL = "https://aminelch.github.io/"
 defaultContentLanguage = "fr"
 theme = "congo"
-
 enableGitInfo = true
-
-#googleAnalytics = "G-R491CBSHL3"
 enableRobotsTXT = true
 paginate = 50
 summaryLength = 0

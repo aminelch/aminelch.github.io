@@ -1,7 +1,7 @@
 ---
 title: Deploy Scalable VPC Architecture on AWS Cloud
 icon: vpc
-draft: flase
+draft: true
 slug: 'deploy-scalable-vpc-architecture-on-aws-cloud'
 date: 2023-07-11
 tags: [aws, vpc]
