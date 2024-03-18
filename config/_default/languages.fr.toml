@@ -9,7 +9,7 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
   isoCode = "fr"
   displayName = "fr"
   rtl = false
-  dateFormat = "02 Janvier 2006"
+  dateFormat = "02 Jan 2006"
   description = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
 
 [author]
@@ -17,7 +17,7 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
   image = "avatar.jpeg"
 #  headline = ""
 #  headline = "J’écris à propos GNU/Linux, du développement web et de la vie en général."
-  headline = "Chaque défi surmonté dans la vie peut être considéré comme un rond-point franchi, marquant ainsi la progression vers de nouveaux horizons."
+  headline = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
   bio = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
   links = [
     { email = "mailto:mfauwxs1b@mozmail.com" },
@@ -27,5 +27,5 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
     { linkedin = "https://linkedin.com/in/aminelch" },
   ]
 
-[params.post.reading_time]
-  one = "{{ .Count }} xxxxxxxx"
+#[params.post.reading_time]
+#  one = "{{ .Count }} xxxxxxxx"

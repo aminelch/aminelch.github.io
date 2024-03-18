@@ -12,6 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
+enableImageWebp = true
 
 robots = "index, follow"
 fingerprintAlgorithm = "sha256"
@@ -26,10 +27,11 @@ fingerprintAlgorithm = "sha256"
   showCopyright = true
   showThemeAttribution = true
   showScrollToTop = true
+  showAppearanceSwitcher = false
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
   recentLimit = 5
 
 [article]
