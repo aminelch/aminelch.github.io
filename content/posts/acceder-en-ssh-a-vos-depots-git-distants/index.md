@@ -64,7 +64,7 @@ Si c'est la première fois que vous vous connectez, vous devez vérifier l'authe
  The authenticity of host 'gitlab.com (xx.xx.xx.xx)' can't be established.
  ECDSA key fingerprint is SHA256:HbW3g8zUjNSksFbqTiUWPWg2Bq1x8xdGUrliXFzxxxx.
  Are you sure you want to continue connecting (yes/no)? yes
- Warning: Permanently added 'gitlab.nordnet.fr' (ECDSA) to the list of known hosts.
+ Warning: Permanently added 'gitlab.fr' (ECDSA) to the list of known hosts.
 ```
 
 - Tapez `oui` et appuyez sur `Entrée`
