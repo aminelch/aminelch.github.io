@@ -15,20 +15,25 @@
   pageRef = "posts"
   weight = 10
 
+#[[main]]
+#name = "Projets"
+#pageRef = "projects"
+#weight = 20
+
 [[main]]
-name = "Projets"
-pageRef = "projects"
-weight = 20
+name = "Techniques en Poche"
+pageRef = "techniques-en-poche"
+weight = 30
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Whoami"
   pageRef = "pages/whoami"
-  weight = 40
+  weight = 50
 
 [[main]]
   identifier = "appearance"
