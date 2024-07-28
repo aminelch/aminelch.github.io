@@ -3,22 +3,19 @@ languageName = "French"
 weight = 1
 
 title = "Le blog de Amine LOUHICHI"
-# logo = "/images/major_twitter_avatar.jpg"
 copyright = "La totalité du contenu est soumise à la licence [GPL3](https://www.gnu.org/licenses/quick-guide-gplv3.html)"
 [params]
   isoCode = "fr"
   displayName = "fr"
   rtl = false
   dateFormat = "02 Jan 2006"
-  description = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
+  description = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
 
 [author]
   name = "Amine LOUHICHI"
   image = "avatar.jpeg"
-#  headline = ""
-#  headline = "J’écris à propos GNU/Linux, du développement web et de la vie en général."
-  headline = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
-  bio = "Mon petit mémo des expertises partagées : PHP, GNU/Linux🐧, Architecture Applicative & Cie"
+  headline = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
+  bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
   links = [
     { email = "mailto:mfauwxs1b@mozmail.com" },
     { gitlab = "https://gitlab.com/aminelch" },
