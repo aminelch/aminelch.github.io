@@ -81,5 +81,5 @@ jobs:
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
-          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/aminelch/amine.io.git
+          git remote add gitlab https://${GITLAB_TOKEN}@gitlab.com/aminelch/amine.io.git
           git push --mirror gitlab
