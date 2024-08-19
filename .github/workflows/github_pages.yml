@@ -34,8 +34,8 @@ jobs:
     env:
       HUGO_VERSION: 0.121.0
     steps:
-      - name: Check GitLab Token
-        run: echo "GitLab Token is ${{ secrets.GITLAB_TOKEN }}"
+#      - name: Check GitLab Token
+#        run: echo "GitLab Token is ${{ secrets.GITLAB_TOKEN }}"
 
       - name: Install Hugo CLI
         run: |
@@ -50,12 +50,12 @@ jobs:
           submodules: recursive
           fetch-depth: 0
           
-      - name: Mirror to GitLab
-        env:
-          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
-        run: |
-          git remote add gitlab https://${{ secrets.GITLAB_TOKEN }}@gitlab.com/aminelch/amine.io.git
-          git push --mirror gitlab
+#      - name: Mirror to GitLab
+#        env:
+#          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+#        run: |
+#          git remote add gitlab https://${{ secrets.GITLAB_TOKEN }}@gitlab.com/aminelch/amine.io.git
+#          git push --mirror gitlab
 
       - name: Setup Pages
         id: pages
