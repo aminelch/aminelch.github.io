@@ -32,6 +32,11 @@ Utilise la commande suivante pour copier la clé publique du serveur A vers le s
 ```bash
 $- ssh-copy-id user@serverB
 ```
+Si vous un clef en particulier à ajouter
+
+```bash
+$- ssh-copy-id -i ~/.ssh/clef.pub user@serverB
+```
 
 Remplace user par le nom d'utilisateur sur le serveur B et serverB par l'adresse IP ou le nom de domaine du serveur B.
 Cela ajoutera la clé publique à `~/.ssh/authorized_keys` sur le serveur B.
