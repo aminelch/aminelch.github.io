@@ -41,6 +41,11 @@ Le jour de l'examen, une vague de nervosité et d'excitation m'a envahi. Les que
  La différence de langue a été perturbante non pas au niveau des commandes, mais surtout pour la compréhension des questions.
  Il serait bénéfique que les rédacteurs de l'examen utilisent des phrases plus simples pour éviter ces ambiguïtés linguistiques.
 
+Pour en savoir plus sur les différentes certifications et choisir celle qui correspond le mieux à votre parcours, je vous invite à lire cet article de Simone [“Simo” Bertulli : LPI’s Certifications – What Is Your Path?](https://www.lpi.org/blog/2022/01/27/simone-simo-bertull-lpi-certifications-what-your-path/).
+
+<img src="https://www.lpi.org/sites/default/files/lpi-roadmap-thefutureishiring-simo-bertulli-blog.png">
+<center>Parcours de Certification LPI</center>
+
 ### Les Acquis et prochaine étape
 
 La certification [LPI Linux Essentials](https://www.lpi.org/fr/our-certifications/linux-essentials-overview/) permet d'acquérir une solide base en administration [Linux](https://fr.wikipedia.org/wiki/Linux). Elle couvre la compréhension des concepts fondamentaux du système d'exploitation [Linux](https://fr.wikipedia.org/wiki/Linux) et des différentes distributions. Les compétences incluent l'utilisation des commandes de base pour naviguer, gérer les fichiers et les répertoires, et manipuler les permissions.
@@ -51,9 +56,7 @@ Au-delà des compétences techniques, cette certification a également tracé la
 prochain objectif dans ce parcours est la certification [LPIC-1 (Linux Administrator)](https://www.lpi.org/fr/our-certifications/lpic-1-overview/), qui approfondit davantage les concepts que j'ai abordés avec l'Essentials.
 
 ### Conclusion
-
 Pour ceux qui envisagent de suivre cette voie, mon conseil est simple :
 **Préparez-vous avec rigueur, car les compétences que vous acquérez en cours de route vous serviront bien au-delà de
 l'examen**🚀.
 
- Vous pouvez consulter mon certificat en suivant ce [lien](https://cs.lpi.org/caf/Xamman/certification/verify/LPI000514647/gkqehttn3c)
