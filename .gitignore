@@ -1,5 +1,6 @@
 .hugo_build.lock
 public/
 .s3deploy.yml
-
+resources/_gen/images/*
+resources/_gen/posts/*
 /public
