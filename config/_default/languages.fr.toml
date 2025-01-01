@@ -11,18 +11,5 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
   dateFormat = "02 Jan 2006"
   description = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
 
-[author]
-  name = "Amine LOUHICHI"
-  image = "avatar.jpeg"
-  headline = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
-  bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
-  links = [
-    { email = "mailto:mfauwxs1b@mozmail.com" },
-    { gitlab = "https://gitlab.com/aminelch" },
-    { dev = "https://dev.to/aminelch" },
-    { twitter = "https://twitter.com/aminelch" },
-    { linkedin = "https://linkedin.com/in/aminelch" },
-  ]
-
 #[params.post.reading_time]
 #  one = "{{ .Count }} xxxxxxxx"

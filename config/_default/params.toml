@@ -34,6 +34,19 @@ fingerprintAlgorithm = "sha256"
   showRecent = true
   recentLimit = 5
 
+[author]
+name = "Amine LOUHICHI"
+image = "avatar.jpeg"
+headline = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
+bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
+links = [
+  { email = "mailto:mfauwxs1b@mozmail.com" },
+  { gitlab = "https://gitlab.com/aminelch" },
+  { dev = "https://dev.to/aminelch" },
+  { twitter = "https://twitter.com/aminelch" },
+  { linkedin = "https://linkedin.com/in/aminelch" },
+]
+
 [article]
   showDate = true
   showDateUpdated = false
