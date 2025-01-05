@@ -1,29 +1,29 @@
-PRECOMMIT_HOOK := .git/hooks/pre-commit
-HOOK_SOURCE := pre-commit
+PRECOMMIT_HOOK := .git/hooks/post-commit
+HOOK_SOURCE := post-commit
 
 .PHONY: help
 help:
 	@echo "Available targets:"
 	@echo "  help                    Display this help message"
-	@echo "  setup-hook              Copy the pre-commit hook to the .git/hooks directory and make it executable"
-	@echo "  remove-hook             Remove the pre-commit hook from the .git/hooks directory"
-	@echo "  push-to-gitlab          Push commits to GitLab remote using the pre-commit hook"
-	@echo "  push-to-github          Push commits to GitHub remote using the pre-commit hook"
+	@echo "  setup-hook              Copy the post-commit hook to the .git/hooks directory and make it executable"
+	@echo "  remove-hook             Remove the post-commit hook from the .git/hooks directory"
+	@echo "  push-to-gitlab          Push commits to GitLab remote using the post-commit hook"
+	@echo "  push-to-github          Push commits to GitHub remote using the post-commit hook"
 	@echo "  push-to-all-remotes     Push commits to both GitLab and GitHub remotes"
 	@echo "  clean                   No operation (useful for cleanup or resetting)"
 	@echo "  about                   Display information about the author"
 
 .PHONY: setup-hook
 setup-hook:
-	@echo "Setting up pre-commit hook..."
+	@echo "Setting up post-commit hook..."
 	@cp $(HOOK_SOURCE) $(PRECOMMIT_HOOK)
 	@chmod +x $(PRECOMMIT_HOOK)
-	@echo "Pre-commit hook installed successfully."
+	@echo "post-commit hook installed successfully."
 
 .PHONY: remove-hook
 remove-hook:
-	@echo "Removing pre-commit hook..."
-	@if [ -f $(PRECOMMIT_HOOK) ]; then rm $(PRECOMMIT_HOOK); echo "Pre-commit hook removed."; else echo "No pre-commit hook to remove."; fi
+	@echo "Removing post-commit hook..."
+	@if [ -f $(PRECOMMIT_HOOK) ]; then rm $(PRECOMMIT_HOOK); echo "post-commit hook removed."; else echo "No post-commit hook to remove."; fi
 
 
 .PHONY: push-to-all-remotes
