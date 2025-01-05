@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Branche par défaut
+BRANCH="main"
+
+# shellcheck disable=SC2236
+if [ ! -z "$1" ]; then
+  echo "Pushing to $1..."
+  if git push "$1" "$BRANCH"; then
+    echo "Push to $1 successful."
+    exit 0
+  else
+    echo "Failed to push to $1."
+    exit 1
+  fi
+else
+  echo "Checking remotes..."
+  REMOTES="$(git remote show)"
+
+  if [ -z "$REMOTES" ]; then
+    echo "No remote found."
+    exit 1
+  fi
+
+  for REMOTE in $REMOTES; do
+    echo "Pushing to $REMOTE..."
+    if git push "$REMOTE" "$BRANCH"; then
+      echo "Push to $REMOTE successful."
+    else
+      echo "Failed to push to $REMOTE."
+      exit 1
+    fi
+  done
+fi
