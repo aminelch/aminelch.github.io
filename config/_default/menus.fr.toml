@@ -11,29 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Articles"
+  name = "Blog"
   pageRef = "posts"
   weight = 10
 
+[[main]]
+name = "Projets"
+pageRef = "projects"
+weight = 20
+
 #[[main]]
-#name = "Projets"
-#pageRef = "projects"
-#weight = 20
-
-[[main]]
-name = "Techniques en Poche"
-pageRef = "techniques-en-poche"
-weight = 30
-
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 40
-
-[[main]]
-  name = "Whoami"
-  pageRef = "pages/whoami"
-  weight = 50
+#  name = "À Propos"
+#  pageRef = "pages/whoami"
+#  weight = 50
 
 [[main]]
   identifier = "appearance"
@@ -47,7 +37,10 @@ weight = 30
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-# [[footer]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 10
+[[footer]]
+name = "Index"
+pageRef = "tags"
+weight = 10
+[footer.params]
+  icon = "bars"
+  showName = true

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Branche par défaut
 BRANCH="main"
 
 # shellcheck disable=SC2236

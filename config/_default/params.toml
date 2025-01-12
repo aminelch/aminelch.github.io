@@ -31,21 +31,8 @@ fingerprintAlgorithm = "sha256"
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = true
-  recentLimit = 5
-
-[author]
-name = "Amine LOUHICHI"
-image = "avatar.jpeg"
-headline = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
-bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
-links = [
-  { email = "mailto:mfauwxs1b@mozmail.com" },
-  { gitlab = "https://gitlab.com/aminelch" },
-  { dev = "https://dev.to/aminelch" },
-  { twitter = "https://twitter.com/aminelch" },
-  { linkedin = "https://linkedin.com/in/aminelch" },
-]
+  showRecent = false
+  recentLimit = 3
 
 [article]
   showDate = true
@@ -62,15 +49,15 @@ links = [
   showReadingTime = true
   showTableOfContents = true
   showTaxonomies = true
-  showWordCount = false
+  showWordCount = true
   showComments = false
-  sharingLinks = ["email", "dev.to", "reddit", "facebook", "twitter", "linkedin"]
+#  sharingLinks = ["email", "dev.to", "reddit", "facebook", "twitter", "linkedin"]
 
 [list]
   showBreadcrumbs = true
   showSummary = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = true
   paginationWidth = 1
 
