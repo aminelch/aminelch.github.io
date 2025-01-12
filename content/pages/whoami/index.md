@@ -5,6 +5,8 @@ date: 2024-01-03T23:05:24+01:00
 description: "Mon petit mémo sur tout ce qui touche PHP, l’architecture applicative et l’administration système GNU/Linux 🐧"
 type: page
 slug: whoami️
+tags:
+  - aboutme
 ---
 
 ## Qui suis-je ?
