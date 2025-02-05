@@ -39,5 +39,5 @@ Le contenu est rédigé en [Markdown](https://www.markdownguide.org/getting-star
 **Côté technique** :
 
 - Hébergement sur [GitHub](https://github.com/aminelch/aminelch.github.io) avec un mirroring sur [GitLab](https://gitlab.com/aminelch/amine.io) pour une flexibilité maximale.
-- Gestion du domaine via [Name.com](https://name.com).
+- Gestion du domaine via [OVH](https://www.ovh.com/).
 - Icônes en SVG, sous licence libre, soigneusement sélectionnées sur [Iconfinder](https://www.iconfinder.com/).
