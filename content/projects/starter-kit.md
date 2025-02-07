@@ -3,7 +3,7 @@ title: Starter Kit
 icon: starter-kit
 slug: 'starter-kit'
 date: 2023-01-04
-tags: [bash, automatisation, scripting]
+tags: [bash, automatisation, scripting, git, ssh, zsh, shell]
 url: '/projects/starter-kit'
 
 description: >
