@@ -1,8 +1,6 @@
 ---
 date: '2025-02-05'
 draft: false
-description: |
-  Je partage mon expérience avec le certificat LPI Linux Essentials, révélant les obstacles surmontés et l'impact significatif sur ma carrière professionnelle.
 title: >
   Portée des Variables dans GitLab CI/CD
 tags: [gitlab, gitlab-ci, pipeline, intégration-continue, gitlab-ci/cd]
