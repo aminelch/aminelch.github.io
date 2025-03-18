@@ -23,6 +23,7 @@ bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Archit
 links = [
   { email = "mailto:mfauwxs1b@mozmail.com" },
   { link = "https://keys.openpgp.org/vks/v1/by-fingerprint/E205C5E1240921B508DF0EEB63EF4C2D5506D109" },
+  { github = "https://github.com/aminelch" },
   { gitlab = "https://gitlab.com/aminelch" },
   { linkedin = "https://linkedin.com/in/aminelch" },
   { twitter = "https://twitter.com/aminelch" },
