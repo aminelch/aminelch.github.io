@@ -7,6 +7,11 @@ date: 2025-03-11
 tags:
   - opensource
   - fsf
+  - github
+  - code-review
+  - cli-tools
+  - contribution
+  - bug-fix
 
 url: '/projects/contributions-opensource'
 
@@ -15,6 +20,11 @@ description: >
 ---
 
 Une collection de contributions que j'ai apportées aux projets open source🚀.
+
+### Hashicorp Vagrant
+[Vagrant](https://developer.hashicorp.com/vagrant) est un outil open-source développé par HashiCorp qui permet de créer, configurer et gérer des environnements de développement virtualisés de manière simple et reproductible.
+
+- [PR#13604](https://github.com/hashicorp/vagrant/pull/13604) - ✍ vagrant validate: Add an example demonstrating how to validate a Vagrantfile while ignoring provider-specific configurations
 
 ### tldr-pages
 
@@ -45,3 +55,7 @@ Le projet [TLDR-PAGES](https://tldr.sh/) est une collection de pages d'aide à l
 [Congo](https://jpanther.github.io/congo/) Un template puissant et léger pour [Hugo](https://gohugo.io/) construit avec Tailwind CSS.
 
 - [PR#986](https://github.com/jpanther/congo/pull/986) - 🐛 Fix: Correct absolute path for shebang in shell script
+
+### Autres
+
+- [PR#1](https://github.com/mercuryseries/panterest/pull/1) - 🐛 Fix: Layout path for the 404 error template
