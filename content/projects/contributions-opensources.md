@@ -21,6 +21,11 @@ description: >
 
 Une collection de contributions que j'ai apportées aux projets open source🚀.
 
+### awesome-zsh-plugins
+Le projet [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) regroupe une vaste collection de plugins pour étendre [Zsh](https://zsh.sourceforge.io/). J’y ai contribué en développant [zenquotes](https://github.com/aminelch/zenquotes), un plugin affichant des citations inspirantes dans le terminal via l’API [zenquotes.io](https://zenquotes.io/). Il est désormais listé sur la page des [plugins](https://github.com/unixorn/awesome-zsh-plugins?tab=readme-ov-file#plugins).
+
+- [PR#1972](https://github.com/unixorn/awesome-zsh-plugins/pull/1972) - ➕ Add zenquotes plugin
+
 ### Hashicorp Vagrant
 [Vagrant](https://developer.hashicorp.com/vagrant) est un outil open-source développé par HashiCorp qui permet de créer, configurer et gérer des environnements de développement virtualisés de manière simple et reproductible.
 
