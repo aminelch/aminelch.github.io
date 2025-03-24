@@ -49,6 +49,8 @@ Le projet [TLDR-PAGES](https://tldr.sh/) est une collection de pages d'aide à l
 
 - [PR#15938](https://github.com/tldr-pages/tldr/pull/15938) - ✍ phpstan: edit page
 
+- [PR#15993](https://github.com/tldr-pages/tldr/pull/15993) - ✍ gitlab-ctl: edit page
+
 ### tabby
 
 [Tabby](https://tabby.sh/) (anciennement Terminus) est un émulateur terminal hautement configurable, SSH et un client en série pour Windows 10, MacOS et Linux.
