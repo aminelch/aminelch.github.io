@@ -26,6 +26,6 @@ L'image Docker utilisée est une image personnalisée développée par mes soins
 
 Ce projet offre une solution flexible et efficace pour déployer des environnements de développement adaptés à différents besoins.
 
-![](deploy-container.gif)
+![](https://gitlab.com/cool-devops-stuff/deploy.sh/-/raw/main/deploy-container.gif)
 
 Vous pouvez trouver le référentiel du projet ici : [Gitlab - Deploy.sh](https://gitlab.com/cool-devops-stuff/deploy.sh)
