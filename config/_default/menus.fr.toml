@@ -16,9 +16,9 @@
   weight = 10
 
 [[main]]
-name = "Projets"
-pageRef = "projects"
-weight = 20
+  name = "Projets"
+  pageRef = "projects"
+  weight = 20
 
 #[[main]]
 #  name = "À Propos"
@@ -38,9 +38,10 @@ weight = 20
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-name = "Index"
-pageRef = "tags"
-weight = 10
+  name = "Index"
+  pageRef = "tags"
+  weight = 10
+
 [footer.params]
   icon = "bars"
   showName = true
