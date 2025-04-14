@@ -5,6 +5,7 @@ HOOK_SOURCE := post-commit
 help:
 	@echo "Available targets:"
 	@echo "  help                    Display this help message"
+	@echo "  serve                   Launch the local server"
 	@echo "  setup-hook              Copy the post-commit hook to the .git/hooks directory and make it executable"
 	@echo "  remove-hook             Remove the post-commit hook from the .git/hooks directory"
 	@echo "  push-to-gitlab          Push commits to GitLab remote using the post-commit hook"
@@ -12,6 +13,10 @@ help:
 	@echo "  push-to-all-remotes     Push commits to both GitLab and GitHub remotes"
 	@echo "  clean                   No operation (useful for cleanup or resetting)"
 	@echo "  about                   Display information about the author"
+
+.PHONY: serve
+serve:
+	@hugo serve --noHTTPCache  --ignoreCache
 
 .PHONY: setup-hook
 setup-hook:
