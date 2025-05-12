@@ -31,8 +31,8 @@ fingerprintAlgorithm = "sha256"
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
-  recentLimit = 3
+  showRecent = true
+  recentLimit = 5
 
 [article]
   showDate = true

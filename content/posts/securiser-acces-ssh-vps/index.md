@@ -21,7 +21,7 @@ En tant qu'architecte responsable (et légèrement parano 😎), ma priorité es
 
 Sécuriser l’accès SSH, c’est souvent la toute première ligne de défense, et pourtant la plus négligée. Trop de serveurs sont mis en ligne avec des accès permissifs, parfois même avec l’authentification par mot de passe activée — un véritable tapis rouge pour les attaques automatisées.
 
-Bien que cette routine soit essentielle, elle n’est jamais banale. Chaque mauvaise configuration est une opportunité offerte à un [botnet](https://en.wikipedia.org/wiki/Botnet#Telnet) ; chaque oubli devient une faille potentielle. Dans le domaine de la [cybersécurité](https://en.wikipedia.org/wiki/Computer_security), ce n’est pas l’exploit sophistiqué qui vous attrape — c’est l’erreur humaine, ou pire, la négligence.
+Bien que cette routine soit essentielle, elle n’est jamais banale. Chaque mauvaise configuration est une opportunité offerte à un [botnet](https://en.wikipedia.org/wiki/Botnet#Telnet). Dans le domaine de la cybersécurité, ce n’est pas l’exploit sophistiqué qui vous attrape, c’est plutôt l’erreur humaine, ou pire : la négligence.
 
 ## Récapitulatif des éléments essentiels de la configuration par défaut
 
@@ -62,15 +62,12 @@ Pour plus d'informations détaillées, consultez la documentation complète de [
 
 ## Démo 
 
-Pour cette petite démonstration, j'ai choisi de provisionné une vm voire une conteneur basé sur débian-systemd que je maintiens d'ailleurs 
-par le bias d'un utilitaire qui j'ai nommé deploy.sh et qui est disponible ici 
+Pour illustrer cette configuration en action, j’ai utilisé une machine de test basée sur [debian-systemd](https://gitlab.com/cool-devops-stuff/debian-systemd), que je maintiens sous forme d’une image docker.
+Le provisionnement est entièrement automatisé grâce à mon utilitaire nommé [deploy.sh](https://gitlab.com/cool-devops-stuff/deploy.sh).
 
-Pour illustrer cette configuration en action, j’ai utilisé une machine de test basée sur Debian, que je maintiens sous forme d’image légère (VM ou conteneur).
-Le provisionnement est entièrement automatisé grâce à mon outil nommé [deploy.sh](https://gitlab.com/cool-devops-stuff/deploy.sh).
+Cet utilitaire me permet de lancer rapidement un environnement de test reproductible, idéal pour valider mes rôles Ansible en toute sécurité.
 
-Ce utilitaire me permet de lancer rapidement un environnement de test reproductible, idéal pour valider mes rôles Ansible en toute sécurité.
-
-1. Création de la vm 
+1. Préparation de l'envrionnement de test
 
 ```bash 
 $- deploy -c 1; deploy -i 
@@ -79,10 +76,15 @@ $- deploy -c 1; deploy -i
 ┌──────────────────────┬──────────────────────┬──────────────────────┬──────────────────────┐
 │ 🐋 Container Name  │ ⏳ Started at       │ 🌐 IP Address      │ 📊 Status          │
 ├──────────────────────┼──────────────────────┼──────────────────────┼──────────────────────┤
-│ eminix-debian-1       │ 2025-05-09 20:41:08  │ 172.17.0.2           │ running             │
+│ eminix-debian-1       │ 2025-02-09 20:41:08  │ 172.17.0.2           │ running             │
 └──────────────────────┴──────────────────────┴──────────────────────┴──────────────────────┘
 ```
-2. Affichage de la conf par défault
+
+{{< alert >}}
+**INFO:** L'option `-c` permet de créer nombre arbitraire des conteneurs(ici un seul conteneur), tandis que `-i` affiche un tableau récapitulatif de l’état des conteneurs.
+{{< /alert >}}
+
+2. Affichage de la configuration par défaut
 
 ```bash
 $- ssh eminix@172.17.0.2 -t grep --color=always  -i Permitroot /etc/ssh/sshd_config
@@ -92,7 +94,7 @@ PermitRootLogin yes
 Connection to 172.17.0.2 closed.
 ```
 
-3. Lancement du role 
+3. Lancement du rôle
 
 ```bash
 $- ansible-playbook -i inventory-dev.yml  run_single_role.yml
@@ -110,7 +112,7 @@ $- ansible-playbook -i inventory-dev.yml  run_single_role.yml
     \___)=(___/
 
 
-changed: [dev1]
+changed: [test1]
  ___________________________________________________________
 < RUNNING HANDLER [ssh_config : Validate SSH configuration] >
  -----------------------------------------------------------
@@ -125,7 +127,7 @@ changed: [dev1]
     \___)=(___/
 
 
-ok: [dev1]
+ok: [test1]
  ____________
 < PLAY RECAP >
  ------------
@@ -138,7 +140,7 @@ ok: [dev1]
      (|     | )
     /'\_   _/`\
     \___)=(___/
-dev1                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0  
+test1                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0  
 ```
 
 {{< alert >}}
