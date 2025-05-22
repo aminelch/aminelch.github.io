@@ -5,7 +5,7 @@ description: |
   "Retour d’expérience sur la mise en place d’une configuration SSH sécurisée dès la première connexion à un VPS"
 tags: [ansible, automatisation, ssh, sécurité, vps]
 title: >
-  SSH, récit d’un accès maîtrisé.
+  SSH, récit d’un accès maîtrisé
 coverAlt: >
     Illustration générée via DALL·E 3 – libre de droits selon [les conditions OpenAI](https://openai.com/policies/terms-of-use)
 coverCaption: >
@@ -21,7 +21,7 @@ En tant qu'architecte responsable (et légèrement parano 😎), ma priorité es
 
 Sécuriser l’accès SSH, c’est souvent la toute première ligne de défense, et pourtant la plus négligée. Trop de serveurs sont mis en ligne avec des accès permissifs, parfois même avec l’authentification par mot de passe activée — un véritable tapis rouge pour les attaques automatisées.
 
-Bien que cette routine soit essentielle, elle n’est jamais banale. Chaque mauvaise configuration est une opportunité offerte à un [botnet](https://en.wikipedia.org/wiki/Botnet#Telnet). Dans le domaine de la cybersécurité, ce n’est pas l’exploit sophistiqué qui vous attrape, c’est plutôt l’erreur humaine, ou pire : la négligence.
+Bien que cette routine soit essentielle, elle n’est jamais banale. Chaque mauvaise configuration est une opportunité offerte à un [botnet](https://en.wikipedia.org/wiki/Botnet#Telnet). Dans le domaine de la cybersécurité, ce n’est pas **l’exploit sophistiqué** qui vous attrape, c’est plutôt **l’erreur humaine**, ou pire : la négligence.
 
 ## Récapitulatif des éléments essentiels de la configuration par défaut
 
@@ -30,7 +30,7 @@ Bien que cette routine soit essentielle, elle n’est jamais banale. Chaque mauv
 | **Service SSH**           | SSH (Secure Shell)                                           |
 | **Port par défaut**       | 22                                                           |
 | **Paquet à installer**    | openssh-server                                               |
-| **Fichier de configuration** | `/etc/ssh/sshd_config` et `/etc/ssh/sshd_config.d`                                   |
+| **Fichiers de configuration** | `/etc/ssh/sshd_config` et le répertoire `/etc/ssh/sshd_config.d` contenant des fichiers supplémentaires de configuration                                   |
 
 ## Un rôle Ansible pour les gouverner tous
 
