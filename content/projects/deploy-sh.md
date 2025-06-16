@@ -10,6 +10,7 @@ tags:
   - devcontainers
   - automatisation
   - shell
+  - cli-tools
   - provisionning
   - infrastructure
 
