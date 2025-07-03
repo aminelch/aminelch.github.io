@@ -103,5 +103,6 @@ $ tldr --platform linux cp
 ```
 ## Conclusion
 
-**TLDR-pages** simplifie l’accès à la documentation CLI avec des exemples clairs, à jour et directement exploitables. Il s’impose comme un compagnon naturel aux pages [man]( https://man7.org/linux/man-pages/).
+**TLDR-pages** est devenu pour moi [un réflexe quotidien](/projects/contributions-opensource/#tldr-pages): il simplifie l’accès à la documentation CLI avec des exemples clairs, à jour et directement exploitables. C’est un compagnon naturel aux pages [man]( https://man7.org/linux/man-pages/).
 
+Je fais d’ailleurs partie de l’[équipe de développement du projet](https://github.com/tldr-pages/tldr/blob/main/MAINTAINERS.md), ce qui me permet d’y apporter des retours fondés sur une utilisation régulière en contexte réel.
