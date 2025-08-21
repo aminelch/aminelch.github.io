@@ -20,10 +20,10 @@
   pageRef = "projects"
   weight = 20
 
-#[[main]]
-#  name = "À Propos"
-#  pageRef = "pages/whoami"
-#  weight = 50
+[[main]]
+  name = "Carnet de Bord"
+  pageRef = "journal"
+  weight = 30
 
 [[main]]
   identifier = "appearance"
