@@ -53,6 +53,8 @@ Le projet [TLDR-PAGES](https://tldr.sh/) est une collection de pages d'aide à l
 
 - [PR#15993](https://github.com/tldr-pages/tldr/pull/16212) - ➕ figlist: add page
 
+- [PR#15993](https://github.com/tldr-pages/tldr/pull/16214) - ➕ chkfont: add page
+
 - [PR#15993](https://github.com/tldr-pages/tldr/pull/16193) - ➕ ansible-lint: add  page
 
 À la suite de ces contributions, j’ai eu le plaisir d’être ajouté en tant que Repository Collaborator sur le dépôt principal, ce qui me permet désormais de relire, valider et accompagner d'autres contributeurs sur le projet — dans la limite du temps que je peux y consacrer entre mes différentes occupations🤖.
