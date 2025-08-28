@@ -82,15 +82,15 @@ Mon nom figure désormais parmi les collaborateurs officiels sur cette page:
 - [PR#1](https://github.com/mercuryseries/panterest/pull/1) - 🐛 Fix: Layout path for the 404 error template
 
 # Issues
-- [Issue#5792](https://github.com/docker/cli/issues/5792) - 🐞 Issue with the **--username** option in docker login   when using **--password-stdin**
+- [Issue#5792](https://github.com/docker/cli/issues/5792) - 🐞 Issue with the `username` option in docker login  
+  when using `--password-stdin`
 
 La commande docker login échouait en plaçant certain paramètre.
 
 Le correctif a été ajouté [le 25 avril 2025](https://github.com/docker/cli/issues/5792#issuecomment-2830715671) et publié le 19 mai 2025 dans Docker CLI [v28.2.0-rc.1](https://github.com/docker/cli/releases/tag/v28.2.0-rc.1)
 
 
-- [Issue#4](https://github.com/JetBrains/fleet-theme-plugin-template/issues/4) - 🐞 [Fleet Plugin Template] Plugin dependencies fail to 
-  download – 403 Forbidden
+- [Issue#4](https://github.com/JetBrains/fleet-theme-plugin-template/issues/4) - 🐞 [Fleet Plugin Template] Plugin dependencies fail to download – 403 Forbidden
 
 Le plugin ne parvient pas à se charger en raison d’une erreur 403 Forbidden lors de la tentative de téléchargement 
 des dépendances depuis le dépôt de plugins de [JetBrains](https://www.jetbrains.com/).
