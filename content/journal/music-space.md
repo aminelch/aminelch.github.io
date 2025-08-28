@@ -13,10 +13,10 @@ description: >
   Les bandes-son qui ont marqué mon parcours et ma croissance personnelle, à découvrir et partager.
 ---
 
+Les musiques qui m’ont façonné – **soigneusement sélectionnées** pour **marquer** chaque étape de mon **chemin personnel**
+
 ![](music-space.png)
 
-
-Les musiques qui m’ont façonné – **soigneusement sélectionnées** pour **marquer** chaque étape de mon **chemin personnel**
 
 ## Jam of the Moment
 Profitez de la chanson que je n’arrive pas à arrêter d’écouter en ce moment ! Ce morceau est ma nouvelle obsession.
