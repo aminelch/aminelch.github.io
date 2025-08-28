@@ -11,11 +11,11 @@ tags:
 
 ## Qui suis-je ?
 
-Un **geek** [ɡik]<sup>1</sup> (de l'anglais : [ɡiːk]<sup>2</sup> ) est une personne passionnée par un ou plusieurs
+> Un **geek** [ɡik]<sup>1</sup> (de l'anglais : [ɡiːk]<sup>2</sup> ) est une personne passionnée par un ou plusieurs
 domaines précis, le plus souvent pour les domaines liés aux « cultures de l'imaginaire » ou encore aux sciences, à la
  technologie et l'informatique.
-
 Cette définition est celle qui ressort le plus souvent, bien qu'elle puisse varier d'un individu à l'autre.
+- source : [wikipedia](https://fr.wikipedia.org/wiki/Geek)
 
 <p class="text-center">
 <a href="https://commons.wikimedia.org/wiki/File:Free_Geekguin.jpg#/media/Fichier:Free_Geekguin.jpg">
