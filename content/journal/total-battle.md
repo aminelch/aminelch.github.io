@@ -13,13 +13,6 @@ description: >
     Comment une simple découverte est devenue une épopée dans Total Battle : clans, guerres d’alliances et quête d’Ayrine.
 ---
 
-
-
-
-
-
-# Total Battle : chronique d’une découverte fortuite
-
 Je suis tombé sur [**Total Battle**](https://totalbattle.com/) presque par hasard, alors que je cherchais un jeu pour occuper mes soirées. Ce 
 qui ne devait être qu’un simple divertissement est vite devenu une véritable passion. Au début, j’avançais à l’aveugle, perdant bêtement mes premières batailles par manque de stratégie. Mais peu à peu, j’ai compris les mécaniques, optimisé ma cité et surtout… j’ai rencontré mes premiers héros.
 
@@ -53,10 +46,14 @@ Voici un aperçu de mon évolution dans Total Battle au fil du temps :
 
 ## Mon évolution dans Total Battle
 
-| Date       | Score total |
-|------------|-------------|
-| 03-03-2025 | 00 000 100  |
-| 22-08-2025 | 13 973 200  |
+| Date       | Score total  |
+|------------|--------------|
+| 03-03-2025 | 00 000 100   |
+| 22-08-2025 | 13 973 200   |
+| 23-08-2025 | 14 026 950   |
+| 25-08-2025 | 15 505 150   |
+| 26-08-2025 | 15 560 260   |
+| 28-08-2025 | 17 247 890   |
 
 ## **Ressources Utiles**
 
