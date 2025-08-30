@@ -4,7 +4,7 @@ title: "Qui suis-je?"
 date: 2024-01-03T23:05:24+01:00
 description: "Mon petit mémo sur tout ce qui touche PHP, l’architecture applicative et l’administration système GNU/Linux 🐧"
 type: page
-slug: whoami️
+slug: whoami
 tags:
   - aboutme
 ---
@@ -21,11 +21,9 @@ Cette définition est celle qui ressort le plus souvent, bien qu'elle puisse var
 <a href="https://commons.wikimedia.org/wiki/File:Free_Geekguin.jpg#/media/Fichier:Free_Geekguin.jpg">
     <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Free_Geekguin.jpg" alt="Free Geekguin.jpg">
 </a>
-Par <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/56205607@N00">
- <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/56205607@N00/1804210839"> Flickr</a>,
-<a href="https://creativecommons.org/licenses/by-sa/2.0" title="Creative Commons Attribution-Share Alike 2.0">CC BY-SA 2.0</a>,
-<a href="https://commons.wikimedia.org/w/index.php?curid=3178664">Lien</a>
+Photo de <a rel="nofollow" class="external text" href="https://www.flickr.com/people/uncleweed/">Dave</a> depuis <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/56205607@N00/1804210839">Flickr</a>
 </p>
+
 
 
 ## A propos ce blog
@@ -43,8 +41,15 @@ qu’on l’a correctement configuré.
 
 ### Théme
 Le thème de ce blog est une adaptation du thème Congo, créé par [James Panther](https://jamespanther.com/). Vous pouvez vous aussi l’utiliser, dans
- sa version originale, ou dans [la version que je propose](https://gihub.com/aminelch/aminelch.github.io), en le
- récupérant sur Github.
+ [sa version originale](https://github.com/jpanther/congo), ou dans [la version que je propose](https://gihub.com/aminelch/aminelch.github.io), en le récupérant sur Github.
+
+### Statistiques d’audience
+
+Pour analyser le trafic de ce site et comprendre le comportement des visiteurs, j’utilise [Umami](https://umami.is), un outil open source de web analytique qui privilégie la protection des données.
+
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDZxMjJoOXByZXV0bzdjbzBrODRuZTQ3bDB4bGwyaGN6d2YyeGYwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FoVzfcqCDSb7zCynOp/giphy.gif">
+
+Pour plus de détails sur la collecte de données et la vie privée, consultez la [Politique de confidentialité](/pages/privacy).
 
 ### Favicon
 
