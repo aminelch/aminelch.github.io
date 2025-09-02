@@ -42,18 +42,21 @@ soit accumuler **1 million d’or** – ce qui est possible avec un farming effi
 > C’est un objectif ambitieux qui demande un travail constant et stratégique pour l’atteindre, surtout que j’ai déjà 
 accumulé plus de **13millions** de score, ce qui me place sur une bonne trajectoire vers cette ambition.
 
-Voici un aperçu de mon évolution dans Total Battle au fil du temps :
+
 
 ## Mon évolution dans Total Battle
 
-| Date       | Score total  |
-|------------|--------------|
-| 03-03-2025 | 00 000 100   |
-| 22-08-2025 | 13 973 200   |
-| 23-08-2025 | 14 026 950   |
-| 25-08-2025 | 15 505 150   |
-| 26-08-2025 | 15 560 260   |
-| 28-08-2025 | 17 247 890   |
+Voici un aperçu de mon évolution dans Total Battle au fil du temps :
+
+| Date       | Score total  | Événement marquant       |
+|------------|--------------|--------------------------|
+| 03-03-2025 | 00 000 100   | Début de l’aventure      |
+| 22-08-2025 | 13 973 200   | -                        |
+| 23-08-2025 | 14 026 950   | -                        |
+| 25-08-2025 | 15 505 150   | -                        |
+| 26-08-2025 | 15 560 260   | -                        |
+| 28-08-2025 | 17 247 890   | -                        |
+| 01-09-2025 | 19 409 900   | Premier pass doré acheté |
 
 ## **Ressources Utiles**
 
