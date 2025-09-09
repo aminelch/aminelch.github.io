@@ -57,6 +57,8 @@ Voici un aperçu de mon évolution dans Total Battle au fil du temps :
 | 26-08-2025 | 15 560 260   | -                        |
 | 28-08-2025 | 17 247 890   | -                        |
 | 01-09-2025 | 19 409 900   | Premier pass doré acheté |
+| 03-09-2025 | 20 240 120   | -                        |
+| 08-09-2025 | 21 788 380   | Achat du héro Ayrine     |
 
 ## **Ressources Utiles**
 
