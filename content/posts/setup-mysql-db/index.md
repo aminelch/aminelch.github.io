@@ -5,7 +5,7 @@ tags: ["MySQL", "RDBMS", "DBA"]
 coverAlt: >
     Logo MySQL depuis <a href="https://www.mysql.com/about/legal/logos.html">Unsplash</a>
 coverCaption: >
-    Logo MySQL depuis <a href="https://www.mysql.com/about/legal/logos.html">Unsplash</a>
+    Logo MySQL depuis <a href="https://www.mysql.com/about/legal/logos.html">mysql.com</a>
 ---
 
 
