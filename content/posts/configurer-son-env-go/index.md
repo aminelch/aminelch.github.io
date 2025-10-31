@@ -69,7 +69,7 @@ git git@gitlab.com:cool-devops-stuff/automation-scripts.git
 cd automation-scripts/go
 bash configure-go.sh
 ```
-### Clusion
+### Conclusion
 
 Configurer votre environnement Golang sur Linux est une étape essentielle pour tout développeur. Que vous optiez pour une configuration manuelle, l'utilisation d'un gestionnaire de paquets ou encore l'exécution d'un script, cet article vous guide à travers les deux approches.
 
