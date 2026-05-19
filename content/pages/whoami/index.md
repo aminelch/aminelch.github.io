@@ -2,59 +2,84 @@
 author: Amine LOUHICHI
 title: "Qui suis-je?"
 date: 2024-01-03T23:05:24+01:00
-description: "Mon petit mémo sur tout ce qui touche PHP, l’architecture applicative et l’administration système GNU/Linux 🐧"
+description: "Réflexions autour de l’architecture, des systèmes et de leur mise en production"
 type: page
 slug: whoami
 tags:
   - aboutme
+  - architecture
+  - devops
+  - cloud
+  - linux
+  - system-design
+  - reliability
+  - observability
+  - automation
+  - open-source
 ---
 
-## Qui suis-je ?
+## Penser les systèmes au-delà du code
 
-> Un **geek** [ɡik]<sup>1</sup> (de l'anglais : [ɡiːk]<sup>2</sup> ) est une personne passionnée par un ou plusieurs
-domaines précis, le plus souvent pour les domaines liés aux « cultures de l'imaginaire » ou encore aux sciences, à la
- technologie et l'informatique.
-Cette définition est celle qui ressort le plus souvent, bien qu'elle puisse varier d'un individu à l'autre.
-- source : [wikipedia](https://fr.wikipedia.org/wiki/Geek)
+Curieux et passionné d’informatique, je suis Amine, quelqu’un qui aime comprendre ce qui se passe derrière chaque ligne de code et chaque système qui tourne. J’ai commencé par le développement, mais très vite j’ai réalisé que coder n’était qu’une partie de l’histoire : le vrai défi, c’est que ce code fonctionne dans le monde réel, survive aux erreurs et reste compréhensible pour quelqu’un d’autre demain. Linux, le DevOps et le cloud sont devenus mes terrains de jeu, des espaces pour observer, automatiser et simplifier, parce que la complexité inutile ne mérite pas sa place. 
 
-<p class="text-center">
-<a href="https://commons.wikimedia.org/wiki/File:Free_Geekguin.jpg#/media/Fichier:Free_Geekguin.jpg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Free_Geekguin.jpg" alt="Free Geekguin.jpg">
-</a>
-Photo de <a rel="nofollow" class="external text" href="https://www.flickr.com/people/uncleweed/">Dave</a> depuis <a rel="nofollow" class="external text" href="https://www.flickr.com/photos/56205607@N00/1804210839">Flickr</a>
-</p>
+Entre mon NAS qui héberge mes tests et mon PC perso où je bricole des environnements maison, je transforme des idées en systèmes fonctionnels et observables. 
 
+![](homelab.png)
 
+Mon blog n’est pas un dépôt de tutoriels ou de contenus “clics rapides” ; c’est un espace où je décrypte le comment et le pourquoi, où je partage mes choix, mes expérimentations et mes réflexions sur les systèmes et leur architecture. Je construis des systèmes qui durent, tolèrent l’erreur, évoluent sans tout casser et peuvent être maintenus par d’autres.
 
-## A propos ce blog
+J’utilise l’open source, non pas par mode, mais pour la transparence et la liberté de comprendre ce qui se passe vraiment sous le capot. Le cloud ? Ce n’est rien de plus qu’un localhost de quelqu’un d’autre, exposé à travers le réseau, et cette idée me fascine : toute la puissance que l’on croit distante est juste un système que quelqu’un d’autre a mis en marche. Mon but est simple : rendre les systèmes fiables, réduire la complexité inutile, sécuriser sans bloquer, automatiser sans perdre en lisibilité et laisser derrière moi quelque chose que l’équipe pourra comprendre. Au fond, tout ce que je fais, c’est créer, observer et améliorer… avec une obsession pour la simplicité et la durabilité
 
-### Objectif
+## À propos de ce blog
 
-En anglais, l’expression in a **nutshell** annonce un effort pour résumer de manière claire et concise l’essentiel de son propos.
+### 🎯 Objectif
 
-### GSS
-J’utilise [Hugo](https://gohugo.io/), un outil libre de création de site statique en Markdown, et mon site est
-hébergé sur [Github](https://github.com), avec une copie miroir du projet sur [Gitlab](https://gitlab.com/aminelch/amine.io).
+Ce blog est un espace de réflexion autour des systèmes informatiques, de leur conception à leur exploitation.
 
-Cela me permet d’avoir un site sécurisé, qui s’affiche très rapidement, et qui reste facile à maintenir une fois
-qu’on l’a correctement configuré.
+Je n’y publie pas de tutoriels rapides ni de solutions toutes faites. L’objectif est de comprendre en profondeur le **pourquoi** et le **comment** :
+- pourquoi certaines architectures tiennent dans le temps
+- pourquoi d’autres deviennent difficiles à maintenir
+- et comment construire des systèmes simples, fiables et évolutifs
 
-### Théme
-Le thème de ce blog est une adaptation du thème Congo, créé par [James Panther](https://jamespanther.com/). Vous pouvez vous aussi l’utiliser, dans
- [sa version originale](https://github.com/jpanther/congo), ou dans [la version que je propose](https://gihub.com/aminelch/aminelch.github.io), en le récupérant sur Github.
+### 🧠 Ligne éditoriale
 
-### Statistiques d’audience
+Les sujets abordés s’articulent autour de :
+- l’architecture applicative et système
+- le DevOps et l’automatisation
+- le cloud et ses abstractions
+- l’observabilité et la fiabilité
+- la réduction de la complexité
 
-Pour analyser le trafic de ce site et comprendre le comportement des visiteurs, j’utilise [Umami](https://umami.is), un outil open source de web analytique qui privilégie la protection des données.
+Les [articles](/posts) sont basés sur des retours d’expérience, des expérimentations et des analyses issues du terrain.
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDZxMjJoOXByZXV0bzdjbzBrODRuZTQ3bDB4bGwyaGN6d2YyeGYwYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FoVzfcqCDSb7zCynOp/giphy.gif">
+### 🛠️ Stack technique du blog
 
-Pour plus de détails sur la collecte de données et la vie privée, consultez la [Politique de confidentialité](/pages/privacy).
+Ce site repose sur des choix simples et maîtrisés :
 
-### Favicon
+- Généré avec **Hugo**, un générateur de site statique rapide et minimaliste
+- Hébergé sur **GitHub Pages**, avec un miroir sur GitLab
+- Contenu rédigé en Markdown et versionné comme du code
 
-Ce favicon a été généré à l'aide des graphiques suivants provenant de Twitter Twemoji
+### 🎨 Thème
 
-- Graphics Author: Copyright 2020 [Twitter](https://github.com/twitter/twemoji/blob/master/LICENSE), Inc and other contributors https://github.com/twitter/twemoji
-- Graphics Source: [https://github.com/twitter/twemoji/blob/master/assets/svg/1f47e.svg](https://github.com/twitter/twemoji/blob/master/assets/svg/1f47e.svg)
-- Graphics License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+Le blog utilise une adaptation du thème **Congo**, créé par James Panther.
+
+- Version originale : https://github.com/jpanther/congo
+- Version adaptée : https://github.com/aminelch/aminelch.github.io
+
+### 📊 Statistiques et vie privée
+
+Les statistiques sont collectées avec [Umami](https://umami.is/), un outil open source respectueux de la vie privée.
+
+Aucun suivi intrusif, aucune collecte inutile.
+L’objectif est uniquement de comprendre l’usage du site.
+
+→ Politique de confidentialité : [privacy](/pages/privacy)
+
+### 🔒 Favicon
+
+Ce favicon a été généré à partir des graphiques open source Twemoji (Twitter), sous licence CC-BY 4.0 :
+
+- https://github.com/twitter/twemoji
+- https://github.com/twitter/twemoji/blob/master/assets/svg/1f47e.svg
+- https://creativecommons.org/licenses/by/4.0/
