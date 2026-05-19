@@ -78,6 +78,7 @@ Voici un aperçu de mon évolution dans Total Battle au fil du temps :
 | 01-12-2025 | 69 959 875   | -                          |
 | 03-12-2025 | 72 915 875   | Dastan 🌟🌟🌟 niveau 110   |
 | 18-12-2025 | 100 076 102  | 100M 🎉🎉🎉 de score       |
+| 14-05-2026 | 421 697 415  | Niveau T8/ Déménagement vers k212|
 
 ## **Ressources Utiles**
 
