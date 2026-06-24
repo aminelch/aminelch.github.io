@@ -17,7 +17,7 @@ summaryLength = 0
   home = ["HTML", "RSS", "JSON"]
 [author]
 name = "Amine LOUHICHI"
-image = "avatar.jpeg"
+image = "avatar.png"
 headline = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
 bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
 links = [
