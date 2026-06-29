@@ -44,6 +44,12 @@ accumulé plus de **13millions** de score, ce qui me place sur une bonne traject
 
 
 
+### Haemon : l'amplificateur de clan
+
+Aujourd’hui à cette datte 29 06 2026 , **Haemon** est mon héros actif principal. Contrairement aux profils purement offensifs ou défensifs, il est le pilier de ma progression économique et militaire. Son aptitude unique permet de doubler l’efficacité de tous les bonus de mon clan actifs (vitesse de recherche, de construction, d’entraînement). C’est un atout indispensable pour accélérer mon développement.
+
+![](haemon.jpg)
+
 ## Mon évolution dans Total Battle
 
 Voici un aperçu de mon évolution dans Total Battle au fil du temps :
@@ -79,6 +85,9 @@ Voici un aperçu de mon évolution dans Total Battle au fil du temps :
 | 03-12-2025 | 72 915 875   | Dastan 🌟🌟🌟 niveau 110   |
 | 18-12-2025 | 100 076 102  | 100M 🎉🎉🎉 de score       |
 | 14-05-2026 | 421 697 415  | Niveau T8/ Déménagement vers k212|
+| 29-05-2026 | 470 320 118  | Déménagement vers k187|
+| 29-06-2026 | 576 402 810  | Monstres niveau IV|
+
 
 ## **Ressources Utiles**
 
