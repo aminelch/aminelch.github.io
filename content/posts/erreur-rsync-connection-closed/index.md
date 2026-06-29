@@ -1,13 +1,18 @@
 ---
+aliases:
+- /posts/erreur-rsync-connection-closed/
 date: 2023-12-08
+description: 'Comment résoudre l''erreur "rsync: connection unexpectedly closed ..."
+  ?
+
+  '
 draft: false
-description: |
-  Comment résoudre l'erreur "rsync: connection unexpectedly closed ..." ?
 tags:
-  - rsync
-  - linux
-title: >
-    Comment résoudre l'erreur "rsync: connection unexpectedly closed ..." ?
+- rsync
+- linux
+title: 'Comment résoudre l''erreur "rsync: connection unexpectedly closed ..." ?
+
+  '
 ---
 
 <h3>Contexte</h3>

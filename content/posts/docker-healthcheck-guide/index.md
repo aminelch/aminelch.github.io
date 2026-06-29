@@ -1,15 +1,32 @@
 ---
+aliases:
+- /posts/docker-healthcheck-guide/
+coverAlt: 'Illustration générée via DALL·E 3 – libre de droits selon [les conditions
+  OpenAI](https://openai.com/policies/terms-of-use)
+
+  '
+coverCaption: 'Illustration générée via DALL·E 3 – libre de droits selon [les conditions
+  OpenAI](https://openai.com/policies/terms-of-use)
+
+  '
 date: 2025-05-20
+description: '"Découvrez pourquoi les health checks sont essentiels dans vos conteneurs
+  Docker"
+
+  '
 draft: false
-description: |
-  "Découvrez pourquoi les health checks sont essentiels dans vos conteneurs Docker"
-tags: [Docker, Docker Compose, HealthCheck, Containers, Devops,SiteReliability, Observability, Monitoring]
-title: >
-  Pourquoi définir un Health Check dans vos services Docker?
-coverAlt: >
-    Illustration générée via DALL·E 3 – libre de droits selon [les conditions OpenAI](https://openai.com/policies/terms-of-use)
-coverCaption: >
-    Illustration générée via DALL·E 3 – libre de droits selon [les conditions OpenAI](https://openai.com/policies/terms-of-use)
+tags:
+- Docker
+- Docker Compose
+- HealthCheck
+- Containers
+- Devops
+- SiteReliability
+- Observability
+- Monitoring
+title: 'Pourquoi définir un Health Check dans vos services Docker?
+
+  '
 ---
 
 Un conteneur qui tourne, ce n’est pas forcément un service qui fonctionne.

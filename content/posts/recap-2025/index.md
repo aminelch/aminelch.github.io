@@ -1,9 +1,16 @@
 ---
-title: "Récapitulatif de fin d'année 2025"
-date: 2025-12-31T23:59:59+01:00
+aliases:
+- /posts/recap-2025/
+coverAlt: Photo de George Lemon depuis Unsplash
+date: 2025-12-31 23:59:59+01:00
 draft: false
-tags: ["récap", "cloud", "devops", "sre", "opensource"]
-coverAlt: "Photo de George Lemon depuis Unsplash"
+tags:
+- récap
+- cloud
+- devops
+- sre
+- opensource
+title: Récapitulatif de fin d'année 2025
 ---
 
 L'année 2025 a été une période de consolidation technique, marquée par plusieurs chantiers d’automatisation et un engagement plus régulier dans l’open source.

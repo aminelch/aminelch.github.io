@@ -1,19 +1,25 @@
 ---
+aliases:
+- /posts/configurer-environnement-go/
+coverAlt: 'Photo de Kolade Chris depuis <a href="https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png">freecodecamp</a>
+
+  '
+coverCaption: 'Photo de Kolade Chris depuis <a href="https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png">freecodecamp</a>
+
+  '
 date: 2024-12-29
+description: 'Guide pour configurer de votre environnement GoLang.
+
+  '
 draft: false
-description: |
-  Guide pour configurer de votre environnement GoLang.
 tags:
-  - golang
-  - installer
-  - automatisation
-  - bash
-title: >
-  Bien configurer son environnement golang
-coverAlt: >
-    Photo de Kolade Chris depuis <a href="https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png">freecodecamp</a>
-coverCaption: >
-    Photo de Kolade Chris depuis <a href="https://www.freecodecamp.org/news/content/images/size/w2000/2021/10/golang.png">freecodecamp</a>
+- golang
+- installer
+- automatisation
+- bash
+title: 'Bien configurer son environnement golang
+
+  '
 ---
 
 ### TLDR;

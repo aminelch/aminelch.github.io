@@ -1,15 +1,30 @@
 ---
+aliases:
+- /posts/tldr-alternative-man/
+coverAlt: 'Illustration issue du dépôt GitHub officiel du projet TLDR-pages – publiée
+  sous licence [MIT](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md)
+
+  '
+coverCaption: 'Illustration issue du dépôt GitHub officiel du projet TLDR-pages –
+  publiée sous licence [MIT](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md)
+
+  '
 date: 2025-05-31
+description: '"Retour"
+
+  '
 draft: false
-description: |
-  "Retour"
-tags: [tldr-pages, cli-tools, linux, system-administration, devops, opensource, fsf]
-title: >
-  Un compagnon moderne aux pages man en mode CLI
-coverAlt: >
-    Illustration issue du dépôt GitHub officiel du projet TLDR-pages – publiée sous licence [MIT](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md)
-coverCaption: >
-    Illustration issue du dépôt GitHub officiel du projet TLDR-pages – publiée sous licence [MIT](https://github.com/tldr-pages/tldr/blob/main/LICENSE.md)
+tags:
+- tldr-pages
+- cli-tools
+- linux
+- system-administration
+- devops
+- opensource
+- fsf
+title: 'Un compagnon moderne aux pages man en mode CLI
+
+  '
 ---
 
 **T**ravailler en ligne de commande implique fréquemment de consulter les pages `man`. Bien que ceci est un indispensables, ces dernières peuvent s'avérer trop techniques ou détaillées lorsqu'on recherche simplement un exemple d'utilisation rapide.

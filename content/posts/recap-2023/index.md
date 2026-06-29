@@ -1,16 +1,22 @@
 ---
+aliases:
+- /posts/recap-2023/
+coverAlt: 'Photo de Growtika depuis <a href="https://unsplash.com/photos/a-close-up-of-a-computer-mouse-PYyPeCHonnc">Unsplash</a>
+
+  '
+coverCaption: 'Photo de Growtika depuis <a href="https://unsplash.com/photos/a-close-up-of-a-computer-mouse-PYyPeCHonnc">Unsplash</a>
+
+  '
 date: 2023-12-23
+description: 'Récapitulatif de fin d''année 2023
+
+  '
 draft: false
-description: |
-  Récapitulatif de fin d'année 2023
 tags:
-  - récap
-title: >
-  Récapitulatif de fin d'année 2023
-coverAlt: >
-    Photo de Growtika depuis <a href="https://unsplash.com/photos/a-close-up-of-a-computer-mouse-PYyPeCHonnc">Unsplash</a>
-coverCaption: >
-    Photo de Growtika depuis <a href="https://unsplash.com/photos/a-close-up-of-a-computer-mouse-PYyPeCHonnc">Unsplash</a>
+- récap
+title: 'Récapitulatif de fin d''année 2023
+
+  '
 ---
 
 L'année **2K23** a été marquée par d'importants changements pour moi.

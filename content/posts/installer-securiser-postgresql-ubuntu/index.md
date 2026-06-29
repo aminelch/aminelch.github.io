@@ -1,11 +1,18 @@
 ---
-date: '2025-09-15'
-title: "Guide pratique pour installer et sécuriser PostgreSQL sur Ubuntu"
-description: "Guide pratique pour installer et sécuriser PostgreSQL sur Ubuntu"
-tags: ["RDBMS","dba", "pgsql", "postgresql", "system administration","guide"]
+aliases:
+- /posts/installer-securiser-postgresql-ubuntu/
 coverAlt: Photo de PostgreSQL depuis <a href="https://wallpapercave.com/w/wp13366591">wallpapercave</a>
-
 coverCaption: Photo de PostgreSQL depuis <a href="https://wallpapercave.com/w/wp13366591">wallpapercave</a>
+date: '2025-09-15'
+description: Guide pratique pour installer et sécuriser PostgreSQL sur Ubuntu
+tags:
+- RDBMS
+- dba
+- pgsql
+- postgresql
+- system administration
+- guide
+title: Guide pratique pour installer et sécuriser PostgreSQL sur Ubuntu
 ---
 
 Ce guide vous explique comment installer PostgreSQL sur Ubuntu et le configurer de manière sécurisée.

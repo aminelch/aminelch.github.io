@@ -1,14 +1,26 @@
 ---
+aliases:
+- /posts/script-bash-chatgpt-danger/
+coverAlt: 'Photo de [Berke Citak](https://unsplash.com/@berctk) sur [Unsplash](https://unsplash.com/)
+
+  '
+coverCaption: 'Photo de [Berke Citak](https://unsplash.com/@berctk) libre en [License](https://unsplash.com/license)
+
+  '
 date: 2025-09-01
-title: >
-  Le pair scripting avec ChatGPT peut brisé ton OS!
-description: |
-  J’ai testé le pair scripting avec ChatGPT ; certains scripts Bash peuvent réellement briser votre OS si exécutés sans vigilance
-tags: ["linux", "sysadmin", "bash", "chatgpt", "ia"]
-coverAlt: >
-    Photo de [Berke Citak](https://unsplash.com/@berctk) sur [Unsplash](https://unsplash.com/)
-coverCaption: >
-    Photo de [Berke Citak](https://unsplash.com/@berctk) libre en [License](https://unsplash.com/license)
+description: 'J’ai testé le pair scripting avec ChatGPT ; certains scripts Bash peuvent
+  réellement briser votre OS si exécutés sans vigilance
+
+  '
+tags:
+- linux
+- sysadmin
+- bash
+- chatgpt
+- ia
+title: 'Le pair scripting avec ChatGPT peut brisé ton OS!
+
+  '
 ---
 
 > Un script Bash peut sembler anodin jusqu’au moment où il menace de rendre ton système **inutilisable**.

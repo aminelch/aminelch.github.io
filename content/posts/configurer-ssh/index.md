@@ -1,15 +1,21 @@
 ---
-title: Bien configurer son SSH🔐
-draft: false
+aliases:
+- /posts/configurer-ssh/
+coverAlt: 'Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
+
+  '
+coverCaption: 'Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
+
+  '
 date: 2022-03-11
+description: 'une démarche enrichie pour configurer SSH afin d''assurer une communication
+  sécurisée entre deux serveurs
+
+  '
+draft: false
 tags:
-  - ssh
-description: |
-    une démarche enrichie pour configurer SSH afin d'assurer une communication sécurisée entre deux serveurs
-coverAlt: >
-    Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
-coverCaption: >
-    Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
+- ssh
+title: Bien configurer son SSH🔐
 ---
 ### Introduction
 

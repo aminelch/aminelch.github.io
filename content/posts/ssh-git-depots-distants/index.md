@@ -1,20 +1,25 @@
 ---
+aliases:
+- /posts/ssh-git-depots-distants/
 author: Amine LOUHICHI
-date: '2024-01-07'
-draft: false
-description: |
-  Accéder en SSH à vos dépôts Git 🔐
-title: >
-    Accéder en SSH à vos dépôts Git 🔐
-tags:
-  - ssh
-  - git
-  - gitlab
+coverAlt: 'Photo de Kkipngenokoech depuis <a href="https://miro.medium.com/v2/resize:fit:720/format:webp/0*GYOc2VEYOfBrsmqD.png">Medium</a>
 
-coverAlt: >
-    Photo de Kkipngenokoech depuis <a href="https://miro.medium.com/v2/resize:fit:720/format:webp/0*GYOc2VEYOfBrsmqD.png">Medium</a>
-coverCaption: >
-    Photo de Kkipngenokoech depuis <a href="https://miro.medium.com/v2/resize:fit:720/format:webp/0*GYOc2VEYOfBrsmqD.png">Medium</a>
+  '
+coverCaption: 'Photo de Kkipngenokoech depuis <a href="https://miro.medium.com/v2/resize:fit:720/format:webp/0*GYOc2VEYOfBrsmqD.png">Medium</a>
+
+  '
+date: '2024-01-07'
+description: 'Accéder en SSH à vos dépôts Git 🔐
+
+  '
+draft: false
+tags:
+- ssh
+- git
+- gitlab
+title: 'Accéder en SSH à vos dépôts Git 🔐
+
+  '
 ---
 ### Introduction
 

@@ -1,16 +1,20 @@
 ---
+aliases:
+- /posts/avis-certification-lpi-linux/
 author: Amine LOUHICHI
 date: '2024-08-11'
-draft: false
-description: |
-  Je partage mon expérience avec le certificat LPI Linux Essentials, révélant les obstacles surmontés et l'impact significatif sur ma carrière professionnelle.
-title: >
-  Mon expérience et mes acquis sur la certification LPI Linux Essentials 🐧
+description: 'Je partage mon expérience avec le certificat LPI Linux Essentials, révélant
+  les obstacles surmontés et l''impact significatif sur ma carrière professionnelle.
 
+  '
+draft: false
 tags:
-  - certificat
-  - linux
-  - lpi
+- certificat
+- linux
+- lpi
+title: 'Mon expérience et mes acquis sur la certification LPI Linux Essentials 🐧
+
+  '
 ---
 
 

@@ -1,12 +1,30 @@
 ---
-title: "MinIO Community Edition change la donne, RustFS m'a séduit"
-date: 2025-12-31T23:59:59+01:00
-draft: false
-tags: ["récap", "cloud", "devops", "sre", "opensource", "rustfs", "minio", "infrastructure", "terraform", "object-storage", "lab", "poc", "adr"]
-description: "mlorem ipsum"
+aliases:
+- /posts/minio-rustfs/
+coverCaption: 'Illustration générée par [ChatGPT OpenAI](https://openai.com/policies/terms-of-use),
+  utilisée dans un contexte éditorial technique.
 
-coverCaption: >
-  Illustration générée par [ChatGPT OpenAI](https://openai.com/policies/terms-of-use), utilisée dans un contexte éditorial technique.
+  '
+date: 2025-12-31 23:59:59+01:00
+description: 'Retour d''expérience sur la mise en place d''un stockage objet S3-compatible
+  : pourquoi RustFS et sa licence Apache 2.0 m''ont convaincu face à la trajectoire
+  commerciale de MinIO.'
+draft: false
+tags:
+- récap
+- cloud
+- devops
+- sre
+- opensource
+- rustfs
+- minio
+- infrastructure
+- terraform
+- object-storage
+- lab
+- poc
+- adr
+title: MinIO Community Edition change la donne, RustFS m'a séduit
 ---
 
 # MinIO Community Edition change la donne, RustFS m'a séduit
@@ -38,7 +56,7 @@ Le point d'entrée est un fichier `main.tf` qui orchestre la création de mon in
 
 Sous le capot, la virtualisation repose sur [**KVM**](https://ubuntu.com/blog/kvm-hyphervisor), une technologie que j'apprécie particulièrement pour sa simplicité, ses performances et son intégration native dans l'écosystème Linux.
 
-Avec le recul, j'aurais probablement dû partir sur une approche basée sur [Vagrant](/p/jaime-vagrant/)
+Avec le recul, j'aurais probablement dû partir sur une approche basée sur [Vagrant](/p/pourquoi-utiliser-vagrant/)
  pour ce type de lab. Vagrant apporte une couche d'abstraction intéressante pour créer rapidement des environnements reproductibles, surtout lorsqu'on manipule plusieurs machines virtuelles.
 
 Mais cette approche **Terraform + KVM** me permet de garder une vision plus proche de l'infrastructure réelle et de mieux comprendre chaque brique.

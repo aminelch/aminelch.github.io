@@ -3,3 +3,4 @@ public/
 resources/_gen/images/*
 resources/_gen/posts/*
 /public
+/nohup.out

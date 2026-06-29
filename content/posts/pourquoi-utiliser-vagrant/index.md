@@ -1,21 +1,30 @@
 ---
+aliases:
+- /posts/pourquoi-utiliser-vagrant/
+coverAlt: 'Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
+
+  '
+coverCaption: 'Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
+
+  '
 date: 2024-04-07
+description: 'Vagrant est une technologie impressionnante et utile pour créer et gérer
+  des environnements de développement virtualisés de manière cohérente et efficace,
+  offrant flexibilité et isolation. Cet article se concentrera sur Vagrant et le comparera
+  à d''autres technologies similaires.
+
+  '
 draft: false
-description: |
-  Vagrant est une technologie impressionnante et utile pour créer et gérer des environnements de développement virtualisés de manière cohérente et efficace, offrant flexibilité et isolation. Cet article se concentrera sur Vagrant et le comparera à d'autres technologies similaires.
 tags:
-  - vagrant
-  - virtualisation
-  - provisionning
-  - multi-machine
-  - infrastructure
-  - machine-virtuelle
-title: >
-  Vagrant un outil que j'admire
-coverAlt: >
-    Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
-coverCaption: >
-    Photo de Growtika depuis <a href="https://unsplash.com/photos/white-clouds-and-blue-skies-DbwYNr8RPbg">Unsplash</a>
+- vagrant
+- virtualisation
+- provisionning
+- multi-machine
+- infrastructure
+- machine-virtuelle
+title: 'Vagrant un outil que j''admire
+
+  '
 ---
 
 ### Introduction

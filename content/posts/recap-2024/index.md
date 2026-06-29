@@ -1,16 +1,22 @@
 ---
+aliases:
+- /posts/recap-2024/
+coverAlt: 'Photo de Cemrecan Yurtman depuis <a href="https://unsplash.com/photos/a-crane-is-hanging-from-the-ceiling-of-a-building-2NNnv9m6hCI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  '
+coverCaption: 'Photo de Cemrecan Yurtman depuis <a href="https://unsplash.com/photos/a-crane-is-hanging-from-the-ceiling-of-a-building-2NNnv9m6hCI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  '
 date: 2024-12-26
+description: 'Bilan 2024 : Entre Défis Techniques et Succès DevOps
+
+  '
 draft: false
-description: |
-  Bilan 2024 : Entre Défis Techniques et Succès DevOps
 tags:
-  - récap
-title: >
-  Récapitulatif de fin d'année 2024
-coverAlt: >
-    Photo de Cemrecan Yurtman depuis <a href="https://unsplash.com/photos/a-crane-is-hanging-from-the-ceiling-of-a-building-2NNnv9m6hCI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-coverCaption: >
-    Photo de Cemrecan Yurtman depuis <a href="https://unsplash.com/photos/a-crane-is-hanging-from-the-ceiling-of-a-building-2NNnv9m6hCI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- récap
+title: 'Récapitulatif de fin d''année 2024
+
+  '
 ---
 
 L'année 2024 touche à sa fin, marquant la clôture de douze mois intenses où chaque défi relevé a contribué à une progression significative. En tant que DevOps, cette année a été riche en apprentissages, en réalisations techniques et en collaborations marquantes.
@@ -42,7 +48,7 @@ Un aperçu du fonctionnement du script est disponible via un GIF intégré dans 
 
 Parallèlement à mes réalisations techniques, j’ai poursuivi mon objectif de renforcer mes connaissances. En 2024, j’ai obtenu neuf certifications, dont :
 
-- [LPI Essentials Linux](/posts/mon-certificat-lpi-linux-essentials)
+- [LPI Essentials Linux](/posts/avis-certification-lpi-linux)
 - [Cybersecurity Awareness - CAPC](https://www.credly.com/badges/e236083a-e1e3-4d54-9af3-0c5df3563fed/linked_in_profile)
 - [AWS Educate Introduction to Cloud 101](https://www.credly.com/badges/8d4c33da-00c2-417e-87a0-00223ec03fea)
 
