@@ -21,7 +21,7 @@ Les musiques qui m’ont façonné – **soigneusement sélectionnées** pour **
 ## Jam of the Moment
 Profitez de la chanson que je n’arrive pas à arrêter d’écouter en ce moment ! Ce morceau est ma nouvelle obsession.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/34GCwt10cx3SKWmWbTgUC2?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/754uHFsgfHyfDG4P6CGQN4?utm_source=generator&si=6ec8e0e31f0e43e0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Tune Vault
 Une collection de chansons qui ont du sens pour moi ou qui revêtent une signification personnelle.
