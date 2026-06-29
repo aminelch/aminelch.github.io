@@ -4,17 +4,8 @@ icon: contribution
 slug: 'mes-contributions-opensource'
 draft: false
 date: 2025-03-11
-tags:
-  - opensource
-  - fsf
-  - github
-  - code-review
-  - cli-tools
-  - contribution
-  - bug-fix
-
+tags: [opensource, github, contributions, cli-tools, devops, tldr-pages, bug-fix]
 url: '/projects/contributions-opensource'
-
 description: >
     Une collection de mes contributions aux projets open source, incluant des pull requests, des traductions, et des améliorations pour des projets communautaires.
 ---
@@ -51,13 +42,11 @@ Le projet [TLDR-PAGES](https://tldr.sh/) est une collection de pages d'aide à l
 
 - [PR#15938](https://github.com/tldr-pages/tldr/pull/15938) - ✍  phpstan: edit page
 
-- [PR#15993](https://github.com/tldr-pages/tldr/pull/16214) - ➕ chkfont: add page
+- [PR#16214](https://github.com/tldr-pages/tldr/pull/16214) - ➕ chkfont: add page
 
-- [PR#15993](https://github.com/tldr-pages/tldr/pull/16212) - ➕ figlist: add page
+- [PR#16212](https://github.com/tldr-pages/tldr/pull/16212) - ➕ figlist: add page
 
-- [PR#15993](https://github.com/tldr-pages/tldr/pull/16214) - ➕ chkfont: add page
-
-- [PR#15993](https://github.com/tldr-pages/tldr/pull/16193) - ➕ ansible-lint: add  page
+- [PR#16193](https://github.com/tldr-pages/tldr/pull/16193) - ➕ ansible-lint: add page
 
 À la suite de ces contributions, j’ai eu le plaisir d’être ajouté en tant que Repository Collaborator sur le dépôt principal, ce qui me permet désormais de relire, valider et accompagner d'autres contributeurs sur le projet — dans la limite du temps que je peux y consacrer entre mes différentes occupations🤖.
 
@@ -67,7 +56,7 @@ Mon nom figure désormais parmi les collaborateurs officiels sur cette page:
 
 ### tabby
 
-[Tabby](https://tabby.sh/) (anciennement Terminus) est un émulateur terminal hautement configurable, SSH et un client en série pour Windows 10, MacOS et Linux.
+[Tabby](https://tabby.sh/) (anciennement Terminus) est un émulateur de terminal hautement configurable, ainsi qu'un client SSH et port série pour Windows, macOS et Linux.
 
 - [PR#10283](https://github.com/Eugeny/tabby/pull/10283) - ➕ Add Tokyonight color scheme
 
@@ -85,7 +74,7 @@ Mon nom figure désormais parmi les collaborateurs officiels sur cette page:
 - [Issue#5792](https://github.com/docker/cli/issues/5792) - 🐞 Issue with the `username` option in docker login  
   when using `--password-stdin`
 
-La commande docker login échouait en plaçant certain paramètre.
+La commande docker login échouait lors de l'utilisation de certains paramètres.
 
 Le correctif a été ajouté [le 25 avril 2025](https://github.com/docker/cli/issues/5792#issuecomment-2830715671) et publié le 19 mai 2025 dans Docker CLI [v28.2.0-rc.1](https://github.com/docker/cli/releases/tag/v28.2.0-rc.1)
 
