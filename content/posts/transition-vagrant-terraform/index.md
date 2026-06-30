@@ -15,12 +15,10 @@ tags:
 - Vagrant
 - Terraform
 - HashiCorp
-title: 'Adieu Vagrant, bonjour Terraform : Pourquoi j''ai changé d''outil d''IaC'
+title: 'Adieu Vagrant, bonjour Terraform'
 ---
 
-# Adieu Vagrant, bonjour Terraform : Pourquoi j'ai changé d'outil d'IaC
-
-Je vais commencer par une confession : oui... une petite partie de la raison est que je n'aime pas vraiment Ruby. 😅 
+Je vais commencer par une confession : oui... une petite partie de la raison est que je n'aime pas vraiment Ruby. 😅
 
 Mais ce n'est clairement pas la cause principale de ce changement.
 

@@ -9,7 +9,7 @@ description: >
    Mise en œuvre d'une passerelle de déploiement sécurisée en Go pour orchestrer la livraison d'applications Java EE sur Oracle WebLogic depuis GitLab CI.
 ---
 
-Ce projet présente la conception et la mise en œuvre d'une solution d'automatisation des déploiements pour des applications Java EE critiques sur **Oracle WebLogic Server**, comblant le fossé entre des pipelines modernes (GitLab CI) et une infrastructure traditionnelle.
+Ce projet présente la conception et la mise en œuvre d'une solution d'automatisation des déploiements pour des applications [Java EE](https://jakarta.ee/) critiques sur [Oracle WebLogic Server](https://www.oracle.com/java/weblogic/), comblant le fossé entre des pipelines modernes ([GitLab CI](https://docs.gitlab.com/)) et une infrastructure traditionnelle.
 
 Voici un aperçu rapide du cadre technique de cette réalisation avant d'en détailler le contexte et la problématique :
 
@@ -17,16 +17,16 @@ Voici un aperçu rapide du cadre technique de cette réalisation avant d'en dét
 
 | Catégorie | Technologies utilisées |
 | :--- | :--- |
-| **Langages** | Go (binaire `weblogic-deployer`), Bash (MVP), Java EE |
-| **Automation & CI/CD** | GitLab CI, Maven (Build & Profils) |
-| **Infrastructure (Simulation)** | Terraform, VMs CentOS |
+| **Langages** | [Go](https://go.dev/) (binaire `weblogic-deployer`), Bash (MVP), Java EE |
+| **Automation & CI/CD** | GitLab CI, [Maven](https://maven.apache.org/) (Build & Profils) |
+| **Infrastructure (Simulation)** | [Terraform](https://www.terraform.io/), VMs CentOS |
 | **Middleware cible** | Oracle WebLogic Server |
 | **Sécurité & Réseau** | SSH (Tunneling), TLS, Isolation VLAN |
 
 
 ## Contexte du Projet
 
-Ce projet concerne l’automatisation des déploiements d’applications Java EE critiques sur [Oracle WebLogic Server](https://www.oracle.com/java/weblogic/). L'intervention s'est déroulée dans un environnement hybride, combinant des pipelines CI/CD modernes via GitLab CI et une infrastructure d'entreprise traditionnelle basée sur des clusters WebLogic. 
+Ce projet concerne l’automatisation des déploiements d’applications Java EE critiques sur **Oracle WebLogic Server**. L'intervention s'est déroulée dans un environnement hybride, combinant des pipelines CI/CD modernes via GitLab CI et une infrastructure d'entreprise traditionnelle basée sur des clusters WebLogic. 
 
 L’objectif principal était de réduire la friction entre les pratiques DevOps modernes et les contraintes opérationnelles d'une plateforme legacy.
 
