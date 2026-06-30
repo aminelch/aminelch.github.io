@@ -1,13 +1,8 @@
 ---
 aliases:
 - /posts/config-commune-bash-zsh/
-coverAlt: 'Illustration de terminal symbolisant une configuration portable et commune.
-
-  '
-coverCaption: 'Illustration de terminal symbolisant une configuration portable et
-  commune.
-
-  '
+coverAlt: 'Illustration de mon terminal.'
+coverCaption: 'Illustration de mon terminal.'
 date: 2025-09-27
 description: Comment avoir une configuration unifiée entre Zsh et Bash
 tags: [dotfiles, shell, zsh, terminal, bash, linux, devops]

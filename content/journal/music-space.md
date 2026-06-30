@@ -15,7 +15,7 @@ description: >
 
 Les musiques qui m’ont façonné – **soigneusement sélectionnées** pour **marquer** chaque étape de mon **chemin personnel**
 
-![](music-space.png)
+![](journal/musique/espace-musique.png)
 
 
 ## Jam of the Moment

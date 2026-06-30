@@ -27,7 +27,7 @@ Aujourd’hui, je fais partie d’un clan puissant dans un autre royaume, ce qui
 
 Aujourd’hui, **Alrick** est mon général incontournable. Véritable mur défensif, il protège ma cité contre toutes les attaques ennemies. Même avec les accélérateurs, une marche vers sa ville prend **7 minutes**, ce qui témoigne de sa robustesse et de son rôle central dans mes stratégies défensives.
 
-![](alrick.png)
+![](journal/tb/alrick.png)
 
 
 ## Stratégie et progression
@@ -36,7 +36,7 @@ Mon objectif à moyen terme est d’obtenir **Ayrine**, un héros purement offen
 travers les royaumes sans aucune limite de distance. Pour l’acquérir, il faut soit acheter un pack à **52,2$**, 
 soit accumuler **1 million d’or** – ce qui est possible avec un farming efficace et des cadeaux réguliers du clan.
 
-![](ayrine.png)
+![](journal/tb/ayrine.png)
 
 
 > C’est un objectif ambitieux qui demande un travail constant et stratégique pour l’atteindre, surtout que j’ai déjà 
@@ -48,7 +48,7 @@ accumulé plus de **13millions** de score, ce qui me place sur une bonne traject
 
 Aujourd’hui à cette datte 29 06 2026 , **Haemon** est mon héros actif principal. Contrairement aux profils purement offensifs ou défensifs, il est le pilier de ma progression économique et militaire. Son aptitude unique permet de doubler l’efficacité de tous les bonus de mon clan actifs (vitesse de recherche, de construction, d’entraînement). C’est un atout indispensable pour accélérer mon développement.
 
-![](haemon.jpg)
+![](journal/tb/haemon.jpg)
 
 ## Mon évolution dans Total Battle
 
