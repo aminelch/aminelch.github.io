@@ -18,8 +18,8 @@ summaryLength = 0
 [author]
 name = "Amine LOUHICHI"
 image = "avatar.png"
-headline = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
-bio = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
+headline = "DevOps & Platform Engineering 🐧 | Linux • CI/CD • Automatisation • Observabilité • Plateformes Auto-Hébergées"
+bio = "DevOps & Platform Engineering 🐧 | Linux • CI/CD • Automatisation • Observabilité • Plateformes Auto-Hébergées"
 links = [
   { email = "mailto:mfauwxs1b@mozmail.com" },
   { link = "https://keys.openpgp.org/vks/v1/by-fingerprint/E205C5E1240921B508DF0EEB63EF4C2D5506D109" },

@@ -9,7 +9,7 @@ copyright = "La totalité du contenu est soumise à la licence [GPL3](https://ww
   displayName = "fr"
   rtl = false
   dateFormat = "02 Jan 2006"
-  description = "Mon petit mémo des expertises partagées : Devops, GNU/Linux🐧, Architecture Applicative & Cie"
+  description = "DevOps & Platform Engineering 🐧 | Linux • CI/CD • Automatisation • Observabilité • Plateformes Auto-Hébergées"
 
 #[params.post.reading_time]
 #  one = "{{ .Count }} xxxxxxxx"
